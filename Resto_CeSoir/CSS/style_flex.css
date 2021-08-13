@@ -1,0 +1,133 @@
+body{
+    font-family: 'Caveat Brush', cursive;
+    background: #86ba9b;
+    margin: 100px 25%;
+    /*padding: 25%;*/
+}
+
+h1{
+    font-size: 78px;
+}
+
+li, a{
+    display: inline;
+    text-decoration: none;
+}
+
+i{
+    color: #e82ead;
+}
+
+header{
+    background: white;
+    width: 1000px;
+    height: 600px;
+}
+
+.cerf{
+    width: 150px;
+    height: 150px;
+    margin: 0 40%;
+}
+
+main{
+    width: 1000px;
+    background: white;
+    height: 2678px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3{
+    border: 1px solid pink;
+    font-size: 40px;
+    text-align: center;
+    width: 150px;
+    margin-left: 45px;
+}
+
+strong{
+    color: #e82ead;
+}
+
+#story{
+    border: 1px solid teal;
+    width: 1000px;
+    height: 370px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#story p{
+    text-align: center;
+}
+
+.txtstory{
+    border: 1px solid blue;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+
+}
+
+.asperge{
+    border: 1px solid pink;
+    width: 590px;
+    height: auto;
+}
+
+#fare{
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+}
+
+.txtfare{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+
+.soap{
+    width: 690px;
+    height: auto;
+}
+
+.graine1{
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 100px;
+    height: 100px;
+}
+
+#drink{
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.graine2{
+    margin-left: 30%;
+    width: 100px;
+    height: 100px;
+}
+
+.txtdrink{
+    width: 300px;
+    height: 300px;
+}
+
+.moule{
+    width: 690px;
+    height: auto;
+}
+
+.egg{
+    width: 1000px;
+    height: auto;
+}

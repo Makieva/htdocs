@@ -1,0 +1,131 @@
+.clear{
+    clear: both;
+}
+
+body{
+    font-family: 'Cormorant Garamond', serif;
+    width: 1020px;
+    margin: 25%;
+    margin-top: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+h1{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 30px;
+    letter-spacing: 5px;
+    border-bottom: 1px solid black;
+}
+
+h3{
+    letter-spacing: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.plat{
+    border: 1px solid green;
+    text-align: center;
+    width: 1020px;
+}
+
+.imgplat{
+    border: 1px solid blue;
+    width: 510px;
+    height: 515px;
+
+}
+
+.txtplat{
+    border: 1px solid red;
+    font-size: 15px;
+    font-weight: bold;
+    width: 500px;
+    float: right;
+    position: inline-block;
+}
+
+#salle{
+    width: 1020px;
+}
+
+.imgsalle{
+    float: right;
+    position: relative;
+    display:flex-start;
+    height: 515px;
+    width: 500px;
+}
+
+.txtsalle{
+    width: 510px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+#service{
+    width: 1020px;
+}
+
+.imgservice{
+    height: 515px;
+    width: 510px;
+}
+
+.txtservice{
+    font-size: 15px;
+    width: 510px;
+    position: relative; 
+    float:right;
+}
+
+#dressage{
+    width: 1020px;
+}
+
+.imgdressage{
+    float: right;
+    position: relative;
+    display: flex-start;
+    width: 510px;
+    height: 515px;
+
+}
+
+.txtdressage{
+    font-size: 15px;
+    width: 500px;
+    display: inline-block;
+}
+
+#gout{
+    width: 1020px;
+}
+
+.imggout{
+    height: 515px;
+    width: 510px;
+}
+
+.txtgout{
+    font-size: 15px;
+    width: 510px;
+    position: relative;
+    float: right;
+}

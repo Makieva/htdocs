@@ -1,0 +1,64 @@
+body{
+     /*background-color: cornflowerblue;*/
+     font-size: 25px;
+}
+
+h1{
+   color: #edd32b;
+   /*background-color: #7d45ff;*/
+}
+
+section p{
+    color: #f745da;
+}
+
+section p:first-child{
+    color: #9bb863;
+}
+
+section p:last-child{
+    color: #04bf68;
+}
+
+section p:nth-child(even){
+    color: #4bd6f2;
+}
+
+section p:nth-child(odd){
+    color: #2559b3;
+}
+
+section p:nth-child(3), section p:nth-child(10){
+    color: #f08b54;
+}
+
+.zone1{
+    color: #ed071a;
+    background-color: #43d2e6;
+}
+
+.zone2{
+    color: #fce26d;
+}
+
+.lime{
+    color: #b7fc6d;
+}
+
+#zone3{
+    background-color: #baccc4;
+}
+
+#zone3::before{
+    content: "rajouté avant ";
+    background-color: #7f81ff;
+}
+
+#zone3::after{
+    content: " rajouté après";
+}
+
+li:nth-child(2){
+    background-color: #a3360f;
+    color: #f0ebfc;
+}

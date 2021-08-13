@@ -1,0 +1,23 @@
+.contenu{
+    /*dégradé qui demarre avec la 1ère couleur et fini avec la 2nde de haut en bas par defaut,
+    mais ici on a ajouté TO LEFT qui effectue le dégradé de gauche à droite*/
+    background: linear-gradient(to left, #40a497, #6840a4);
+    width: 45em;/*largeur*/
+    height: 45em;/*hauteur*/
+    margin: 0 auto; /*pas de marge (valeur 0) en haut et en bas - la valeur auto laisse le navigateur centrer l'élément*/
+    border-radius: 50%;/*la propriété border-radius permet d'arrondir plus ou moins les angles*/
+}
+
+img{
+    width: 550px;
+    height: 500px;
+    border-radius: 100px;
+    margin: 80px;
+    padding: 15px;
+}
+
+.he{font-size: 80px;
+    font-family: 'architects daughter', cursive;
+    text-align: center;
+
+}

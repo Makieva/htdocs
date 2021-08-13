@@ -1,0 +1,82 @@
+body{
+    height: 1200px;
+}
+
+.conteneur{
+    height: 100%;
+    margin: 80px;
+}
+
+.carre{
+    width: 100px;
+    height: 100px;
+}
+
+.carre:first-child{
+    background: red;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.carre:nth-child(2){
+    background: blue;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.carre:nth-child(4){
+    background: green;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.carre:last-child{
+    background: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.rond{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgb(16, 226, 226);
+    left: calc(50% - 34px);
+    top: calc(50% - 100px);
+    position: absolute;
+    opacity: 55%;
+    z-index: 1;
+}
+
+.ombre{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgb(182, 182, 182);
+    bottom: 490px;
+    left: 920px;
+    position: absolute;
+    z-index: -1;
+}
+
+.rectangle{
+    height: 0;
+    width: 0;
+    border-top: 150px solid hotpink;
+    border-left: 94px solid transparent;
+    border-right: 94px solid transparent;
+    position: sticky;
+    left: calc(47% - 28px);
+    top: calc(0% - 9px);
+    z-index: 2;
+   
+}
+
+
+/*:first-of-type*/
+/*z-index*/
+/*cal*/

@@ -1,0 +1,102 @@
+body{
+    font-family: "cCormoran Garamond", serif;
+    background-color: white;
+    width: 1024px; /*witdh: 80%*/
+    margin: 0 auto;
+}
+
+/* ZONE HEADER */
+
+header{
+    width: 50%;
+    margin: 10% auto 5%; /* haut - droit & gauche - bas*/
+}
+
+nav{
+    text-align: center;
+    font-style: italic;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+header h2{
+    text-align: center;
+    color: #ab2405;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* ZONE MAIN */
+
+.txtplat{
+    align-items: center;
+    border: 1px solid blue;
+
+}
+
+.plat{
+    display: flex;
+    border: 1x solid green
+}
+
+#salle{
+    display: flex;
+}
+
+#service{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#dressage{
+    display: flex;
+}
+
+#gout{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.txtsalle h2, .txtservice h2, .txtdressage h2, .txtgout h2{
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.txtsalle, .txtservice, .txtdressage, .txtgout{
+    padding: 30px;
+}
+
+.imgsalle, .imgservice, .imgdressage, .imggout{
+    height: auto;
+    width: auto;
+}
+
+/* ZONE FOOTER */
+
+footer{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20%;
+    font-weight: bold;
+}
+
+h3{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    letter-spacing: 10px;
+    font-weight: normal;
+    font-size: 45px;
+}
+
+footer p{
+    background-image: url('img/plan.png') no-repeat;
+}
